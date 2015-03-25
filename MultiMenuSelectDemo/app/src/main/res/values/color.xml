@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="dictdialog_divider_color">#ededed</color>
+    <color name="dictdialog_pressed_color">#e7e7e7</color>
+    <color name="dictdialog_bg_gray">#f5f5f5</color>
+</resources>

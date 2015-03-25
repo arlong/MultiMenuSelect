@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="43dp"
+    android:id="@+id/dict_item_ly"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dict_item_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="title"
+        android:layout_marginLeft="16dp"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:textSize="17sp" >
+    </TextView>
+    
+      <TextView
+        android:id="@+id/dict_item_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/dictdialog_divider_color"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp" >
+    </TextView>
+    
+    
+
+</LinearLayout>
